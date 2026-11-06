@@ -1,0 +1,7 @@
+﻿# RDP-Guard forgive list — addresses to immediately unban and clear strikes for.
+# One entry per line. Everything after a # is a comment.
+# When rdp-guard runs, any IP listed here is removed from bans and strikes,
+# and its entry here can subsequently be removed.
+#
+# Examples:
+# 203.0.113.55

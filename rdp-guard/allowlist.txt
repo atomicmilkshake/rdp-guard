@@ -1,0 +1,15 @@
+﻿# RDP-Guard allowlist — addresses that must NEVER be auto-banned.
+# One entry per line. Everything after a # is a comment.
+#
+# BAN POLICY:
+#   failed login with a username that cannot log in on this PC  -> PERMANENT ban
+#   8+ failed logins for a real account in 15 min               -> 24h ban, doubling each repeat
+#   12+ failed logins for a real account in 60 min (slow drip)  -> 24h ban, doubling each repeat
+#   5+ SSH password failures in 15 min                          -> 24h ban, doubling each repeat
+#   4th offence by the same IP                                  -> PERMANENT ban
+#
+# Enter addresses or CIDR blocks you connect FROM:
+# Examples:
+# 203.0.113.10          # Your home WAN IP (for hairpin NAT)
+# 198.51.100.0/24       # Your office / branch subnet
+# 192.0.2.50            # Mobile VPN gateway

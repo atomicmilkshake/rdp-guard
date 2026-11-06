@@ -1,0 +1,30 @@
+﻿# Runtime and state files
+*.log
+bans.json
+bans.json.bak
+auto-allow.json
+guard-state.json
+commit-manifest.json
+commit-manifest.json.bak
+data.json
+data.json.bak
+geo.json
+geo.json.bak
+hourly.json
+hourly.json.bak
+recent.json
+recent.json.bak
+shame.json
+shame.json.bak
+stats.json
+stats.json.bak
+history.jsonl
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# OS artifacts
+Thumbs.db
+Desktop.ini
